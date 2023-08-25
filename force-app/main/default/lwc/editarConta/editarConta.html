@@ -1,0 +1,8 @@
+<template>
+    <lightning-record-edit-form onsubmit={handleSubmit} record-id={recordId} object-api-name={objectApiName}>
+        <lightning-input-field field-name="Name" value="Insira um novo nome"></lightning-input-field>
+        <lightning-input-field field-name="AccountNumber" value="Insrira o novo número"></lightning-input-field>
+        <lightning-input-field field-name="Type" value="Escolha o tipo da conta"></lightning-input-field>
+        <lightning-button class="slds-var-m-top_small" type="submit" label="Atualizar Conta"></lightning-button>
+    </lightning-record-edit-form>
+</template>

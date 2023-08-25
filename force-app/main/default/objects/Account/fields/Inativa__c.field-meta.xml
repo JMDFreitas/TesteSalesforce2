@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inativa__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>este campos deve ser marcado quando a conta atender umas das condiçoes abaixo:
+Não possui tarefas nos ultimos 90 dias;
+Não possui Opp ganha nos ultimos 120 dias;
+Não possui opp em negociações</description>
+    <externalId>false</externalId>
+    <label>Inativa</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
